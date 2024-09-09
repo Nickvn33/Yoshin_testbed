@@ -125,3 +125,23 @@ thead {
     height: 178px;
     width: 150px;
 }
+
+.adults {
+    width: 750px;
+    max-width: 90vw;
+    text-align: center;
+}
+
+.adults-content {
+    text-align: justify;
+}
+
+.kids {
+    width: 750px;
+    max-width: 90vw;
+    text-align: center;
+}
+
+.kids-content {
+    text-align: justify;
+}
