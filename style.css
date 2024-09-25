@@ -12,6 +12,7 @@ header {
     top: 0;
     background: white;
     width: 100%;
+    z-index: 99;
 }
 
 nav {
@@ -43,6 +44,7 @@ img {
     background: white;
     padding-bottom: 15px;
     text-align: center;
+    z-index: 99;
 }
 
 .home {
@@ -94,7 +96,7 @@ img {
 .content {
     top: 220px;
     position: relative;
-    z-index: -1;
+    /*z-index: -1;*/
 }
 
 .about-content {
@@ -195,9 +197,4 @@ thead {
 .gallery-photo {
     padding: 5px;
     height: 200px;
-}
-
-ul {
-    display: flex;
-    flex-wrap: wrap;
 }
