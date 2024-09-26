@@ -82,6 +82,89 @@ img {
     }
 }
 
+.home-page-container {
+    position: relative;
+    display: grid;
+    top: 350px;
+    width: 100%;
+    grid-template-areas:
+                    "agility-flexibility left center right fitness-speed"
+                    "bottom bottom bottom bottom bottom";
+}
+
+.home-agility-flexibility {
+    grid-area: agility-flexibility;
+    display: grid;
+    grid-template-areas:
+                    "agility"
+                    "flexibility";
+    padding-right: 15px;
+}
+
+.home-fitness-speed {
+    grid-area: fitness-speed;
+    display: grid;
+    grid-template-areas:
+                    "fitness"
+                    "speed";
+    padding-left: 15px;
+}
+
+.home-page-logo-container {
+    height: 200px;
+    width: 200px;
+}
+
+.home-agility {
+    grid-area: agility;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.home-flexibility {
+    grid-area: flexibility;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.home-fitness {
+    grid-area: fitness;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.home-speed {
+    grid-area: speed;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.home-image-left {
+    grid-area: left;
+    height: 200px;
+    width: 200px;
+}
+
+.home-image-right {
+    grid-area: right;
+    height: 200px;
+    width: 200px;
+}
+
+.home-page-logo {
+    height: 100%;
+    width: 100%;
+}
+
+.bottom {
+    grid-area: bottom;
+    padding-top: 75px;
+}
+
 .about-link {
     color: #C1272D;
     padding: 0 15px;
