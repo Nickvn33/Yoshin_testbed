@@ -13,6 +13,8 @@ header {
     background: white;
     width: 100%;
     z-index: 99;
+    border-bottom: #C1272D 5px solid;
+    padding-bottom: 1px;
 }
 
 nav {
@@ -39,7 +41,7 @@ img {
 .page-heading {
     width: 100%;
     position: fixed;
-    top: 150px;
+    top: 155px;
     background: white;
     padding-bottom: 15px;
     text-align: center;
